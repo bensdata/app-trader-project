@@ -5,9 +5,6 @@
 -- 		droid = play_store
 --		total_rc = 
 
-select *
-from app_store_apps
-where name ilike '%pew%'
 
 -- SELECT distinct(ios.name), ios.rating, droid.rating, (ios.review_count::integer + droid.review_count) AS total_rc, ios.primary_genre, ios.content_rating
 -- FROM app_store_apps AS ios
